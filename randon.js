@@ -81,7 +81,7 @@ document.write(randomico + "");
 contador++;
 
 } */
-function numeroAdivinar()
+/*function numeroAdivinar()
 {
 	var num=Math.floor(Math.random()*1000)+1;
 	return num;
@@ -101,3 +101,12 @@ var conta = 0;
 }
 alert("Intentos realizados: " +conta);
 document.write("<h1>Intentos realizados por la PC: </h1>" +conta);
+*/
+
+console.log("Inicio de programa");
+var html = '';
+for (var i = 1; i <=10; i++){
+	html += "<div>" + i + "<div>";
+}
+document.write(html);
+console.log("Programa completado");
